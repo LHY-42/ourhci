@@ -1,0 +1,27 @@
+{% extends "ourapp/layout.html" %}
+
+{% block body %}
+    
+    <h1 class="needspad">Search for OurHCI users:</h1>
+    
+
+    <form action="{% url 'search'%}">
+        
+        <div class="input-group mb-3 needspad">
+            <div class="input-group-prepend">
+                <span class="input-group-text">By Username</span>
+            </div>
+            <input class="search form-control" type="text" name="q" placeholder="Search Users" autocomplete="off" required>
+            <button class="btn btn-success" type="submit">Go</button>
+        </div>
+        <!-- <div class="input-group mb-3 needspad">
+            <div class="input-group-prepend">
+                <span class="input-group-text">By Class</span>
+            </div>
+            <input class="search form-control" type="text" name="q" placeholder="Enter Class Name" autocomplete="off">
+            <button class="btn btn-success" type="submit">Go</button>
+        </div> -->
+          
+    </form>
+
+{% endblock %}

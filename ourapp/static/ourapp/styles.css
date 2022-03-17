@@ -1,0 +1,36 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EAECEF
+}
+
+#hachi {
+    max-width:30%;
+    height:auto;
+}
+
+.needspad {
+    padding:30px;
+}
+.imgsmaller{
+    max-width:40%;
+    height:auto;
+}
+
+.footer{
+    text-align:center;
+
+    padding:-10px;
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color:blue;
+}
+
+consort{
+    max-width:5%;
+    height:auto;
+}
